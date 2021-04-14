@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: white;
+    text-align: block;
+    padding-right: 50px;
+    
+}
+h1 {
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    margin: 200px 100px 10px 100px;
+}
+p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    
+    
+}
+.blog {
+    background-image: url(./photos/Image2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.list {
+    background-color: black;
+    padding: 5px 0 7px 0;
+}
